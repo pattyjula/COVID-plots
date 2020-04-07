@@ -1,0 +1,241 @@
+Date,count,location,rate
+2020-04-04,37,Hancock Park,225.27
+2020-04-04,24,Beverly Crest,193.63
+2020-04-04,15,Bel Air,182.53
+2020-04-04,24,Carthay,178.86
+2020-04-04,20,Crestview,174.73
+2020-04-04,21,Century City,173.38
+2020-04-04,129,Melrose,166.16
+2020-04-04,17,South Carthay,160.44
+2020-04-04,12,Little Armenia,158.52
+2020-04-04,46,Brentwood,147.12
+2020-04-04,6,Marina Peninsula,136.58
+2020-04-04,11,Adams-Normandie,129.61
+2020-04-04,84,Hollywood,129.34
+2020-04-04,37,Hollywood Hills,128.14
+2020-04-04,26,Pacific Palisades,125.58
+2020-04-04,29,Valley Village,123.78
+2020-04-04,16,Beverlywood,120.11
+2020-04-04,17,Mid-city,112.87
+2020-04-04,33,Tarzana,109.17
+2020-04-04,5,Shadow Hills,108.89
+2020-04-04,10,Cheviot Hills,107.94
+2020-04-04,46,Silverlake,106.51
+2020-04-04,9,Victoria Park,105.04
+2020-04-04,15,Leimert Park,99.29
+2020-04-04,39,Encino,91.69
+2020-04-04,6,Rancho Park,89.55
+2020-04-04,28,Glassell Park,89.21
+2020-04-04,19,Los Feliz,89.03
+2020-04-04,19,Studio City,88.77
+2020-04-04,5,Elysian Park,86.48
+2020-04-04,39,Palms,86.36
+2020-04-04,25,Del Rey,85.45
+2020-04-04,15,Miracle Mile,84.9
+2020-04-04,8,Playa Vista,80.13
+2020-04-04,18,Downtown,74.23
+2020-04-04,6,Toluca Lake,73.0
+2020-04-04,27,West Los Angeles,72.02
+2020-04-04,20,West Adams,71.12
+2020-04-04,9,Lakeview Terrace,67.36
+2020-04-04,7,Gramercy Place,66.9
+2020-04-04,10,Cloverdale/Cochran,66.64
+2020-04-04,43,Woodland Hills,66.62
+2020-04-04,5,Vermont Square,65.45
+2020-04-04,10,Country Club Park,64.92
+2020-04-04,52,Sylmar,62.84
+2020-04-04,18,Harbor City,62.16
+2020-04-04,52,Sherman Oaks,61.2
+2020-04-04,18,Baldwin Hills,60.01
+2020-04-04,20,Venice,58.59
+2020-04-04,21,Chatsworth,58.27
+2020-04-04,8,Crenshaw District,58.16
+2020-04-04,24,Mar Vista,57.29
+2020-04-04,17,Valley Glen,56.96
+2020-04-04,86,North Hollywood,56.82
+2020-04-04,10,Vermont Knolls,55.96
+2020-04-04,8,Echo Park,55.76
+2020-04-04,15,University Park,55.71
+2020-04-04,16,East Hollywood,53.71
+2020-04-04,5,Thai Town,51.67
+2020-04-04,27,Koreatown,51.33
+2020-04-04,20,Central,51.14
+2020-04-04,27,Westwood,49.61
+2020-04-04,7,Historic Filipinotown,49.45
+2020-04-04,25,Winnetka,48.99
+2020-04-04,9,Harvard Heights,48.92
+2020-04-04,10,Sunland,48.75
+2020-04-04,22,Exposition Park,48.68
+2020-04-04,16,Porter Ranch,48.18
+2020-04-04,14,Little Bangladesh,48.16
+2020-04-04,20,Lake Balboa,48.01
+2020-04-04,26,West Vernon,47.88
+2020-04-04,18,Temple-Beaudry,46.17
+2020-04-04,27,Westlake,46.01
+2020-04-04,10,Green Meadows,46.01
+2020-04-04,18,Eagle Rock,45.95
+2020-04-04,11,Mission Hills,45.88
+2020-04-04,29,Canoga Park,45.53
+2020-04-04,23,Westchester,45.28
+2020-04-04,22,Florence-Firestone,45.03
+2020-04-04,34,Reseda,44.88
+2020-04-04,15,Century Palms/Cove,44.29
+2020-04-04,6,Park La Brea,44.17
+2020-04-04,17,South Park,43.49
+2020-04-04,36,Boyle Heights,41.26
+2020-04-04,15,West Hills,38.34
+2020-04-04,16,El Sereno,38.33
+2020-04-04,22,Granada Hills,37.95
+2020-04-04,16,Pico-Union,37.56
+2020-04-04,11,Hyde Park,37.43
+2020-04-04,13,Arleta,37.03
+2020-04-04,19,Wilshire Center,36.92
+2020-04-04,33,Van Nuys,35.54
+2020-04-04,27,Panorama City,35.52
+2020-04-04,21,North Hills,34.47
+2020-04-04,15,Harbor Gateway,34.33
+2020-04-04,13,Wholesale District,34.04
+2020-04-04,8,Mt. Washington,33.43
+2020-04-04,11,Lincoln Heights,33.28
+2020-04-04,19,Wilmington,33.17
+2020-04-04,25,San Pedro,32.13
+2020-04-04,14,Watts,31.88
+2020-04-04,15,Highland Park,31.14
+2020-04-04,21,Northridge,30.99
+2020-04-04,12,Harvard Park,30.27
+2020-04-04,8,Tujunga,28.39
+2020-04-04,15,Vernon Central,27.72
+2020-04-04,22,Pacoima,27.52
+2020-04-04,11,Vermont Vista,26.4
+2020-04-04,13,Sun Valley,23.55
+2020-04-04,0,Exposition,0.0
+2020-04-04,0,Jefferson Park,0.0
+2020-04-04,0,Angelino Heights,0.0
+2020-04-04,0,University Hills,0.0
+2020-04-04,0,Harbor Pines,0.0
+2020-04-04,0,St Elmo Village,0.0
+2020-04-04,0,Sycamore Square,0.0
+2020-04-04,0,Wellington Square,0.0
+2020-04-04,0,Toluca Terrace,0.0
+2020-04-04,0,Toluca Woods,0.0
+2020-04-04,0,Brookside,0.0
+2020-04-05,37,Hancock Park,225.27
+2020-04-05,24,Beverly Crest,193.63
+2020-04-05,15,Bel Air,182.53
+2020-04-05,24,Carthay,178.86
+2020-04-05,20,Crestview,174.73
+2020-04-05,21,Century City,173.38
+2020-04-05,129,Melrose,166.16
+2020-04-05,17,South Carthay,160.44
+2020-04-05,12,Little Armenia,158.52
+2020-04-05,46,Brentwood,147.12
+2020-04-05,6,Marina Peninsula,136.58
+2020-04-05,11,Adams-Normandie,129.61
+2020-04-05,84,Hollywood,129.34
+2020-04-05,37,Hollywood Hills,128.14
+2020-04-05,26,Pacific Palisades,125.58
+2020-04-05,29,Valley Village,123.78
+2020-04-05,16,Beverlywood,120.11
+2020-04-05,17,Mid-city,112.87
+2020-04-05,33,Tarzana,109.17
+2020-04-05,5,Shadow Hills,108.89
+2020-04-05,10,Cheviot Hills,107.94
+2020-04-05,46,Silverlake,106.51
+2020-04-05,9,Victoria Park,105.04
+2020-04-05,15,Leimert Park,99.29
+2020-04-05,39,Encino,91.69
+2020-04-05,6,Rancho Park,89.55
+2020-04-05,28,Glassell Park,89.21
+2020-04-05,19,Los Feliz,89.03
+2020-04-05,19,Studio City,88.77
+2020-04-05,5,Elysian Park,86.48
+2020-04-05,39,Palms,86.36
+2020-04-05,25,Del Rey,85.45
+2020-04-05,15,Miracle Mile,84.9
+2020-04-05,8,Playa Vista,80.13
+2020-04-05,18,Downtown,74.23
+2020-04-05,6,Toluca Lake,73.0
+2020-04-05,27,West Los Angeles,72.02
+2020-04-05,20,West Adams,71.12
+2020-04-05,9,Lakeview Terrace,67.36
+2020-04-05,7,Gramercy Place,66.9
+2020-04-05,10,Cloverdale/Cochran,66.64
+2020-04-05,43,Woodland Hills,66.62
+2020-04-05,5,Vermont Square,65.45
+2020-04-05,10,Country Club Park,64.92
+2020-04-05,52,Sylmar,62.84
+2020-04-05,18,Harbor City,62.16
+2020-04-05,52,Sherman Oaks,61.2
+2020-04-05,18,Baldwin Hills,60.01
+2020-04-05,20,Venice,58.59
+2020-04-05,21,Chatsworth,58.27
+2020-04-05,8,Crenshaw District,58.16
+2020-04-05,24,Mar Vista,57.29
+2020-04-05,17,Valley Glen,56.96
+2020-04-05,86,North Hollywood,56.82
+2020-04-05,10,Vermont Knolls,55.96
+2020-04-05,8,Echo Park,55.76
+2020-04-05,15,University Park,55.71
+2020-04-05,16,East Hollywood,53.71
+2020-04-05,5,Thai Town,51.67
+2020-04-05,27,Koreatown,51.33
+2020-04-05,20,Central,51.14
+2020-04-05,27,Westwood,49.61
+2020-04-05,7,Historic Filipinotown,49.45
+2020-04-05,25,Winnetka,48.99
+2020-04-05,9,Harvard Heights,48.92
+2020-04-05,10,Sunland,48.75
+2020-04-05,22,Exposition Park,48.68
+2020-04-05,16,Porter Ranch,48.18
+2020-04-05,14,Little Bangladesh,48.16
+2020-04-05,20,Lake Balboa,48.01
+2020-04-05,26,West Vernon,47.88
+2020-04-05,18,Temple-Beaudry,46.17
+2020-04-05,27,Westlake,46.01
+2020-04-05,10,Green Meadows,46.01
+2020-04-05,18,Eagle Rock,45.95
+2020-04-05,11,Mission Hills,45.88
+2020-04-05,29,Canoga Park,45.53
+2020-04-05,23,Westchester,45.28
+2020-04-05,22,Florence-Firestone,45.03
+2020-04-05,34,Reseda,44.88
+2020-04-05,15,Century Palms/Cove,44.29
+2020-04-05,6,Park La Brea,44.17
+2020-04-05,17,South Park,43.49
+2020-04-05,36,Boyle Heights,41.26
+2020-04-05,15,West Hills,38.34
+2020-04-05,16,El Sereno,38.33
+2020-04-05,22,Granada Hills,37.95
+2020-04-05,16,Pico-Union,37.56
+2020-04-05,11,Hyde Park,37.43
+2020-04-05,13,Arleta,37.03
+2020-04-05,19,Wilshire Center,36.92
+2020-04-05,33,Van Nuys,35.54
+2020-04-05,27,Panorama City,35.52
+2020-04-05,21,North Hills,34.47
+2020-04-05,15,Harbor Gateway,34.33
+2020-04-05,13,Wholesale District,34.04
+2020-04-05,8,Mt. Washington,33.43
+2020-04-05,11,Lincoln Heights,33.28
+2020-04-05,19,Wilmington,33.17
+2020-04-05,25,San Pedro,32.13
+2020-04-05,14,Watts,31.88
+2020-04-05,15,Highland Park,31.14
+2020-04-05,21,Northridge,30.99
+2020-04-05,12,Harvard Park,30.27
+2020-04-05,8,Tujunga,28.39
+2020-04-05,15,Vernon Central,27.72
+2020-04-05,22,Pacoima,27.52
+2020-04-05,11,Vermont Vista,26.4
+2020-04-05,13,Sun Valley,23.55
+2020-04-05,0,Exposition,0.0
+2020-04-05,0,Jefferson Park,0.0
+2020-04-05,0,Angelino Heights,0.0
+2020-04-05,0,University Hills,0.0
+2020-04-05,0,Harbor Pines,0.0
+2020-04-05,0,St Elmo Village,0.0
+2020-04-05,0,Sycamore Square,0.0
+2020-04-05,0,Wellington Square,0.0
+2020-04-05,0,Toluca Terrace,0.0
+2020-04-05,0,Toluca Woods,0.0
+2020-04-05,0,Brookside,0.0
