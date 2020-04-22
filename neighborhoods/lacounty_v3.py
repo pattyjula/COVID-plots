@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf8 -*-
 
-# # Webscraping from LA County COVID-19 Site and Creating Plot
+# # Webscraping from LA County COVID-19 Site tto capture rate and counts
+# of COVID19 for Los Angeles Neighborhoods
+# and then merging with a neighborhood shapefile
 # - Patty Jula, <pattyjula@gmail.com>
 # 
 # LA County Public Health has been providing daily counts of the number of cases and 
