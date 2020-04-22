@@ -5,7 +5,7 @@ LA County Public Health has been providing daily counts of the number of cases a
 rates Los Angeles County from COVID-19. This script provides a way to download the day's counts, 
 load to a database, in this case a CSV, and join to a Los Angeles neighborhood shapefile. 
 
-## Data ource: <http://publichealth.lacounty.gov/media/Coronavirus/locations.htm>
+## COVID19 data source: <http://publichealth.lacounty.gov/media/Coronavirus/locations.htm>
 ### Note:
 This type of webscraping is only available from sites that reveal their source code. 
 The best practice is to ask permission before scraping so an organization's servers 
