@@ -1,2 +1,2 @@
 # COVID-plots
-COVID plots with web scraping
+COVID web scraping and plotting with beautifulsoup, requests, seaborn, and more
