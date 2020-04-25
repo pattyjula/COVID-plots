@@ -9,7 +9,7 @@ Contains plots of CDC cases and deaths. The web scraping worked, but then they c
 
 Contains data on neighborhoods in Los Angeles. The daily shapefile is provided as well as a CSV of all the days since I started this scraping in early April 2020.
 
-## Google folder
+## mobility folder
 
 A quick plot of a Google CSV of people's movement in Los Angeles County, updated weekly, since February.
 
