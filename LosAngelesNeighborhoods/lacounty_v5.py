@@ -1,9 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf8 -*-
 
-# # Webscraping from LA County COVID-19 Site tto capture rate and counts
-# of COVID19 for Los Angeles Neighborhoods
-# and then merging with a neighborhood shapefile
+# # Webscraping from LA County COVID-19 Site and Creating Plot
 # - Patty Jula, <pattyjula@gmail.com>
 # 
 # LA County Public Health has been providing daily counts of the number of cases and 
@@ -24,6 +22,8 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import numpy as np
 import requests
+import datetime
+import time
 
 # Boilerplate code
 url = 'http://publichealth.lacounty.gov/media/Coronavirus/locations.htm'
@@ -35,9 +35,12 @@ soup = BeautifulSoup(html_page, 'html.parser')
 #print(soup.prettify())
 
 # Load data to a Pandas dataframe
-
+caser = 'case_rate'
+cases = 'cases'
+deaths = 'deaths'
+deathr = 'death_rate'
 # column names
-column = ['location', 'count', 'rate']
+column = ['location', cases, caser, deaths, deathr]
 
 # data is an empty list
 data = []
@@ -50,33 +53,33 @@ for element in table.findAll("tr"):
         cells = element.findAll("td")
         info = [cell.text for cell in cells] # get the cell text
         data.append(info) # append to data list
-
+        time.sleep(1) # pause to avoid taxing servers
 df_day = pd.DataFrame(data, columns= column,) # convert to dataframe
 
 # handle empty cells, they are not read as NaN by default
 # So NaN needs to be specified
-df_day['rate'].replace('', np.nan, inplace=True)
+df_day[caser].replace('', np.nan, inplace=True)
 # now delete the NA cells
-df_day.dropna(subset=['rate'], inplace=True)
+df_day.dropna(subset=[caser], inplace=True)
 
 # Save as a CSV
 df_day.to_csv("./data/county.csv", encoding='utf-8', index=False)
 # Read that CSV
+
 df_day = pd.read_csv('./data/county.csv', index_col=False)
 
 # Data Wrangling steps
 
-df_day = df_day[df_day.rate != '--'] # drop select records
+df_day = df_day[df_day['case_rate'] != '--'] # drop select records
 # Focusing here on Los Angeles City neighborhoods
 df_day=df_day[df_day['location'].apply(lambda x: x.startswith('Los Angeles -'))]
-df_day.rate.astype(float)
-df_day = df_day.sort_values(by='rate',ascending=False)
+df_day.case_rate.astype(float)
+df_day = df_day.sort_values(by='case_rate', ascending=False)
 
 df_day.head()
 
 # Add today's date to the dataframe
 
-import datetime
 def today_date():
     '''
     utils:
@@ -128,28 +131,32 @@ df['Date'] = pd.to_datetime(df['Date']).dt.strftime('%m/%d/%Y')
 # so it can join with communities shapefile
 df['location'] = df.location.str.upper()
 # handle empty cells, they are not read as NaN by default
-df['rate'].replace('', np.nan, inplace=True)
+df['case_rate'].replace('', np.nan, inplace=True)
 # now they can be deleted
-df.dropna(subset=['rate'], inplace=True)
+df.dropna(subset=['case_rate'], inplace=True)
+df['location'] = df['location'].str.rstrip('*')
 df.to_csv("./data/neighborhood_storage.csv", encoding='utf-8', index=False)
+df.to_excel("./data/neighborhood_storage.xlsx", index=False)
 print(df.head())
 
 '''
 Join Data to shapefile
 '''
-
+dfday = pd.read_csv("./data/nbhrd_day.csv")# parse_dates=['Date'])#, dayfirst=True)
 import geopandas
 #url = "http://s3-us-west-2.amazonaws.com/boundaries.latimes.com/archive/1.0/boundary-set/la-county-neighborhoods-current.geojson"
 gdf = geopandas.read_file("./data/LACity_communities.shp")
 #gdf = geopandas.read_file(url)
 gdf.plot()
 
-gdfNew = gdf.merge(df_day, left_on='COMTY_NAME', right_on='location', how='inner')
+gdfNew = gdf.merge(df_day, left_on='COMTY_NAME', right_on='location')#, how='inner')
 
 # Data wrangling to get fields in proper format
 gdfNew[["Date"]] = gdfNew[["Date"]].astype(str)
-gdfNew[["rate"]] = gdfNew[["rate"]].astype(float) 
-gdfNew[["count"]] = gdfNew[["count"]].astype(int) 
+gdfNew[['case_rate']] = gdfNew[['case_rate']].astype(float) 
+gdfNew[['cases']] = gdfNew[['cases']].astype(int) 
+gdfNew[['death_rate']] = gdfNew[['death_rate']].astype(float) 
+gdfNew[['deaths']] = gdfNew[['deaths']].astype(int) 
 
 # Export to shapefile
 gdfNew.to_file(driver = 'ESRI Shapefile', filename= './data/nghbrhd_data.shp')
